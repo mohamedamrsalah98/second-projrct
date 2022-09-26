@@ -1,0 +1,36 @@
+git config --global user.name "[name]"
+
+git config --global user.email "[email address]"
+
+=====> open the project local folder then open bash ==> write
+ git init
+
+ git add .
+
+ git commit -m "write your decription message"
+
+ git remote add origin https://github.com/kholudshokry0/first-uploading.git
+
+ git push origin master
+
+
+
+
+========================= team ======================
+git clone URL_Repo
+git branch python4-kholud
+git checkout python4-kholud
+
+or
+git checkout -b python4-kholud
+
+
+git commit -m "create kholud.html file"
+
+git push origin python4-kholud
+
+
+==> download any recents files before uploading new files
+git pull origin master
+
+
